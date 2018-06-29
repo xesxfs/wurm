@@ -7,7 +7,7 @@ package com.strangevillage.wudywurm.parts.gameParts
    import com.strangevillage.wudywurm.helpers.SoundManager;
    import flash.display.MovieClip;
    import flash.display.Sprite;
-   
+   /**蚯蚓块**/
    public class WurmBlock extends Sprite
    {
        

@@ -57,9 +57,12 @@ package com.strangevillage.wudywurm.parts
       private function init(param1:Event = null) : void
       {
          removeEventListener(Event.ADDED_TO_STAGE,this.init);
+         /**重置配置信息**/
          Config.resetConfigVars();
+         /**重置格子**/
          GridHolder.resetGridVars();
          this._setEvents();
+         /**格子背景**/
          this._setBg();
          this._setGrabBlocks();
          this._setWurms();
@@ -183,19 +186,27 @@ package com.strangevillage.wudywurm.parts
                   }
                }
                break;
+               //UP
             case 38:
+               //w
             case 87:
                this._addKey(1);
                break;
+               //DOWN
             case 40:
+               //S
             case 83:
                this._addKey(3);
                break;
+               //Right
             case 39:
+               //D
             case 68:
                this._addKey(2);
                break;
+               //Left
             case 37:
+               //A
             case 65:
                this._addKey(4);
          }

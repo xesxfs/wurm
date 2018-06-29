@@ -11,7 +11,7 @@ package com.strangevillage.wudywurm.parts.gameParts
    import flash.display.Sprite;
    import flash.events.Event;
    import flash.events.MouseEvent;
-   
+   /***蚯蚓*/
    public class Wurms extends Sprite
    {
        
